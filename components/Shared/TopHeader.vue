@@ -1,5 +1,8 @@
 <template>
-  <header class="main-header fixed-header" data-v-inspector="pages/index.vue:74:9">
+  <header
+    class="main-header fixed-header"
+    data-v-inspector="pages/index.vue:74:9"
+  >
     <div class="main-header__top" data-v-inspector="pages/index.vue:75:13">
       <div
         class="main-header__top-inner"
@@ -37,7 +40,7 @@
                 <p data-v-inspector="pages/index.vue:92:37">
                   <a
                     href="mailto:needhelp@company.com"
-                    data-v-inspector="pages/index.vue:92:40" 
+                    data-v-inspector="pages/index.vue:92:40"
                     >needhelp@company.com</a
                   >
                 </p>
@@ -86,7 +89,7 @@
         </div>
       </div>
     </div>
-    <nav class="main-menu " data-v-inspector="pages/index.vue:110:13">
+    <nav class="main-menu" data-v-inspector="pages/index.vue:110:13">
       <div class="main-menu__wrapper" data-v-inspector="pages/index.vue:111:17">
         <div
           class="main-menu__wrapper-inner"
@@ -100,9 +103,9 @@
               class="main-menu__logo"
               data-v-inspector="pages/index.vue:114:29"
             >
-             
-              <NuxtLink to="/" data-v-inspector="pages/index.vue:115:33"> <img
-                  src="/_nuxt/Imags/logo-1.png"
+              <NuxtLink to="/" data-v-inspector="pages/index.vue:115:33">
+                <img
+                  src="/public/Imags/logo-1.png"
                   alt=""
                   data-v-inspector="pages/index.vue:115:54"
               /></NuxtLink>
@@ -129,21 +132,25 @@
                 class="dropdown current"
                 data-v-inspector="pages/index.vue:121:33"
               >
-               
                 <NuxtLink to="/">Home</NuxtLink>
                 <ul
                   class="shadow-box"
                   data-v-inspector="pages/index.vue:123:37"
                 >
                   <li data-v-inspector="pages/index.vue:124:41">
-                    
-                    <NuxtLink to="/"  data-v-inspector="pages/index.vue:124:45">Home One</NuxtLink>
+                    <NuxtLink to="/" data-v-inspector="pages/index.vue:124:45"
+                      >Home One</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:125:41">
-                    <NuxtLink to="/"  data-v-inspector="pages/index.vue:125:45">Home Tow</NuxtLink>
+                    <NuxtLink to="/" data-v-inspector="pages/index.vue:125:45"
+                      >Home Tow</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:126:41">
-                    <NuxtLink to="/"  data-v-inspector="pages/index.vue:126:45">Home Three</NuxtLink>
+                    <NuxtLink to="/" data-v-inspector="pages/index.vue:126:45"
+                      >Home Three</NuxtLink
+                    >
                   </li>
                   <li
                     class="dropdown"
@@ -154,21 +161,34 @@
                     >
                     <ul data-v-inspector="pages/index.vue:129:45">
                       <li data-v-inspector="pages/index.vue:130:49">
-                        <NuxtLink to="/"  data-v-inspector="pages/index.vue:130:53">Header One</NuxtLink>
+                        <NuxtLink
+                          to="/"
+                          data-v-inspector="pages/index.vue:130:53"
+                          >Header One</NuxtLink
+                        >
                       </li>
                       <li data-v-inspector="pages/index.vue:131:49">
-                        <NuxtLink to="/"  data-v-inspector="pages/index.vue:131:53">Header Two</NuxtLink>
+                        <NuxtLink
+                          to="/"
+                          data-v-inspector="pages/index.vue:131:53"
+                          >Header Two</NuxtLink
+                        >
                       </li>
                       <li data-v-inspector="pages/index.vue:132:49">
-                        <NuxtLink to="/"  data-v-inspector="pages/index.vue:132:53">Header Three</NuxtLink>
+                        <NuxtLink
+                          to="/"
+                          data-v-inspector="pages/index.vue:132:53"
+                          >Header Three</NuxtLink
+                        >
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li data-v-inspector="pages/index.vue:137:33">
-               
-                <NuxtLink to="/about" data-v-inspector="pages/index.vue:138:37">About</NuxtLink>
+                <NuxtLink to="/about" data-v-inspector="pages/index.vue:138:37"
+                  >About</NuxtLink
+                >
               </li>
               <li class="dropdown" data-v-inspector="pages/index.vue:140:33">
                 <a href="#" data-v-inspector="pages/index.vue:141:37">Pages</a>
@@ -177,20 +197,32 @@
                   data-v-inspector="pages/index.vue:142:37"
                 >
                   <li data-v-inspector="pages/index.vue:143:41">
-                   
-                    <NuxtLink to="/services" data-v-inspector="pages/index.vue:143:45">Services</NuxtLink>
+                    <NuxtLink
+                      to="/services"
+                      data-v-inspector="pages/index.vue:143:45"
+                      >Services</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:145:41">
-                   
-                    <NuxtLink to="/the-building" data-v-inspector="pages/index.vue:145:45">The Building</NuxtLink>
+                    <NuxtLink
+                      to="/the-building"
+                      data-v-inspector="pages/index.vue:145:45"
+                      >The Building</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:147:41">
-                    
-                    <NuxtLink to="/agent" data-v-inspector="pages/index.vue:147:45">Agents</NuxtLink>
+                    <NuxtLink
+                      to="/agent"
+                      data-v-inspector="pages/index.vue:147:45"
+                      >Agents</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:148:41">
-                   
-                    <NuxtLink to="/faq" data-v-inspector="pages/index.vue:148:45">FAQs</NuxtLink>
+                    <NuxtLink
+                      to="/faq"
+                      data-v-inspector="pages/index.vue:148:45"
+                      >FAQs</NuxtLink
+                    >
                   </li>
                 </ul>
               </li>
@@ -203,12 +235,18 @@
                   data-v-inspector="pages/index.vue:153:37"
                 >
                   <li data-v-inspector="pages/index.vue:154:41">
-                   
-                    <NuxtLink to="/apartments" data-v-inspector="pages/index.vue:154:45">Apartments</NuxtLink>
+                    <NuxtLink
+                      to="/apartments"
+                      data-v-inspector="pages/index.vue:154:45"
+                      >Apartments</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:155:41">
-                    
-                    <NuxtLink to="/apartment-details" data-v-inspector="pages/index.vue:155:45">Apartment Details</NuxtLink>
+                    <NuxtLink
+                      to="/apartment-details"
+                      data-v-inspector="pages/index.vue:155:45"
+                      >Apartment Details</NuxtLink
+                    >
                   </li>
                 </ul>
               </li>
@@ -219,15 +257,27 @@
                   data-v-inspector="pages/index.vue:160:37"
                 >
                   <li data-v-inspector="pages/index.vue:161:41">
-                    <NuxtLink to="/news" data-v-inspector="pages/index.vue:161:45">News</NuxtLink>
+                    <NuxtLink
+                      to="/news"
+                      data-v-inspector="pages/index.vue:161:45"
+                      >News</NuxtLink
+                    >
                   </li>
                   <li data-v-inspector="pages/index.vue:162:41">
-                    <NuxtLink to="/news-details" data-v-inspector="pages/index.vue:162:45">News Details</NuxtLink>
+                    <NuxtLink
+                      to="/news-details"
+                      data-v-inspector="pages/index.vue:162:45"
+                      >News Details</NuxtLink
+                    >
                   </li>
                 </ul>
               </li>
               <li data-v-inspector="pages/index.vue:165:33">
-                <NuxtLink to="/contact" data-v-inspector="pages/index.vue:166:37">Contact</NuxtLink>
+                <NuxtLink
+                  to="/contact"
+                  data-v-inspector="pages/index.vue:166:37"
+                  >Contact</NuxtLink
+                >
               </li>
             </ul>
           </div>
@@ -253,26 +303,30 @@
                 class="main-menu__btn-box"
                 data-v-inspector="pages/index.vue:175:33"
               >
-               
-                <NuxtLink to="/contact" class="thm-btn main-menu__btn" data-v-inspector="pages/index.vue:176:37">Schedule a Visit</NuxtLink>
+                <NuxtLink
+                  to="/contact"
+                  class="thm-btn main-menu__btn"
+                  data-v-inspector="pages/index.vue:176:37"
+                  >Schedule a Visit</NuxtLink
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-
   </header>
 </template>
 
 <style scoped>
-
 .main-menu__btn {
-  color: white; 
+  color: white;
 }
 
 @media (max-width: 767px) {
-  .main-header__top-inner, .main-menu__search-box, .main-menu__btn-box {
+  .main-header__top-inner,
+  .main-menu__search-box,
+  .main-menu__btn-box {
     display: none;
   }
   .main-menu__logo {
@@ -289,43 +343,42 @@
   z-index: 1000;
 }
 .main-menu.scrolled {
-  background-color: black; 
+  background-color: black;
 }
 .main-menu.scrolled .main-menu__logo {
   margin-top: 0px;
- height: 120px;
+  height: 120px;
 }
 .main-menu.scrolled .main-menu__logo img {
-width: 80%;
+  width: 80%;
 }
 
 .main-header__top.scrolled {
-  display: none; 
+  display: none;
 }
 </style>
-
 
 <script>
 export default {
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
   beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
     handleScroll() {
-      const menu = document.querySelector('.main-menu');
-      const topHeader = document.querySelector('.main-header__top');
-      
+      const menu = document.querySelector(".main-menu");
+      const topHeader = document.querySelector(".main-header__top");
+
       if (window.scrollY > 400) {
-        menu.classList.add('scrolled');
-        topHeader.classList.add('scrolled'); 
+        menu.classList.add("scrolled");
+        topHeader.classList.add("scrolled");
       } else {
-        menu.classList.remove('scrolled');
-        topHeader.classList.remove('scrolled'); 
+        menu.classList.remove("scrolled");
+        topHeader.classList.remove("scrolled");
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
