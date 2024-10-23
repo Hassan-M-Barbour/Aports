@@ -15,8 +15,19 @@
               @touchmove="onDrag"
               ref="carouselRef"
             >
-              <div class="carousel-wrapper" :style="{ transform: `translateX(-${currentIndex * (100 / visibleSlides)}%)` }">
-                <div class="carousel-slide" v-for="(item, index) in brandItems" :key="index">
+              <div
+                class="carousel-wrapper"
+                :style="{
+                  transform: `translateX(-${
+                    currentIndex * (100 / visibleSlides)
+                  }%)`,
+                }"
+              >
+                <div
+                  class="carousel-slide"
+                  v-for="(item, index) in brandItems"
+                  :key="index"
+                >
                   <img :src="item" alt="" />
                 </div>
               </div>
@@ -29,16 +40,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from "vue";
 
 // Array to hold the brand images
 const brandItems = [
-  "/Imags/brand-1-1.png",
-  "/Imags/brand-1-2.png",
-  "/Imags/brand-1-3.png",
-  "/Imags/brand-1-4.png",
-  "/Imags/brand-1-5.png",
-  "/Imags/brand-1-6.png",
+  "/public/Imags/brand-1-1.png",
+  "/public/Imags/brand-1-2.png",
+  "/public/Imags/brand-1-3.png",
+  "/public/Imags/brand-1-4.png",
+  "/public/Imags/brand-1-5.png",
+  "/public/Imags/brand-1-6.png",
 ];
 
 const currentIndex = ref(0);
@@ -49,7 +60,8 @@ const visibleSlides = ref(5); // Number of visible slides
 
 // Function to update visible slides based on window width
 const updateVisibleSlides = () => {
-  if (window.innerWidth < 768) { // For mobile devices
+  if (window.innerWidth < 768) {
+    // For mobile devices
     visibleSlides.value = 1; // Show only one slide
   } else {
     visibleSlides.value = 5; // Show five slides for larger screens
@@ -72,7 +84,10 @@ const onDrag = (event) => {
   const diffX = startX.value - currentX;
 
   // Determine how far to move the carousel
-  if (diffX > 100 && currentIndex.value < brandItems.length - visibleSlides.value) {
+  if (
+    diffX > 100 &&
+    currentIndex.value < brandItems.length - visibleSlides.value
+  ) {
     currentIndex.value++;
     startX.value = currentX; // Reset the starting position
   } else if (diffX < -100 && currentIndex.value > 0) {
@@ -84,12 +99,12 @@ const onDrag = (event) => {
 // Set up event listener for window resize
 onMounted(() => {
   updateVisibleSlides();
-  window.addEventListener('resize', updateVisibleSlides);
+  window.addEventListener("resize", updateVisibleSlides);
 });
 
 // Clean up event listener on unmount
 onUnmounted(() => {
-  window.removeEventListener('resize', updateVisibleSlides);
+  window.removeEventListener("resize", updateVisibleSlides);
 });
 </script>
 

@@ -9,7 +9,7 @@
 
       <div class="logo-box">
         <a href="index.html" aria-label="logo image"
-          ><img src="/Imags/logo-3.png" width="122" alt=""
+          ><img src="/public/Imags/logo-3.png" width="122" alt=""
         /></a>
       </div>
       <!-- /.logo-box -->
