@@ -6,7 +6,7 @@
         data-v-inspector="pages/index.vue:1247:17"
       >
         <img
-          src="/_nuxt/Imags/site-footer-shape-1.png"
+          src="/public/Imags/site-footer-shape-1.png"
           alt=""
           data-v-inspector="pages/index.vue:1248:21"
         />
