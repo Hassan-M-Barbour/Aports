@@ -1,0 +1,28 @@
+.custom-cursor {
+    position: fixed;
+    width: 10px; /* حجم الدائرة */
+    height: 10px; /* حجم الدائرة */
+    border-radius: 50%; /* لجعلها دائرية */
+    background-color: #ceae92; /* لون الدائرة */
+    border: 3px solid #ceae92; /* لون الحدود الداخلية */
+    pointer-events: none; /* لمنع التداخل مع الأحداث */
+    transform: translate(-50%, -50%); /* لجعلها تتوسط المؤشر */
+    transition: transform 0.1s ease; /* لجعل الحركة سلسة */
+    z-index: 1000; /* لتكون فوق كل العناصر الأخرى */
+  }
+  
+  .custom-cursor::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px; /* حجم الدائرة الخارجية */
+    height: 30px; /* حجم الدائرة الخارجية */
+    border-radius: 50%; /* لجعلها دائرية */
+    border: 1px solid #ceae92; /* لون الحدود الخارجية */
+    transform: translate(-50%, -50%); /* لجعلها تتوسط المؤشر */
+    pointer-events: none; /* لمنع التداخل مع الأحداث */
+    transition: transform 0.1s ease; /* لجعل الحركة سلسة */
+  }
+  
+  
