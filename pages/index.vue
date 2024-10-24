@@ -1,10 +1,8 @@
 <template>
   <div class="">
-
     <div class="page-wrapper">
       <SharedTopHeader />
       <div class="custom-cursor" id="custom-cursor"></div>
-     
 
       <HomeSlider />
 
@@ -20,7 +18,7 @@
 
       <HomeNeighborhoods />
 
-      <HomeBrandOne1 />
+      <HomeBrandOne />
 
       <HomeContact />
 
@@ -75,13 +73,10 @@ definePageMeta({
 
 <script setup lang="ts">
 useHead({
-  title: 'Aports | Home',
-  meta: [
-    { name: 'description', content: '' }
-  ],
+  title: "Aports | Home",
+  meta: [{ name: "description", content: "" }],
   bodyAttrs: {
-    class: 'test'
+    class: "test",
   },
- 
-})
+});
 </script>
