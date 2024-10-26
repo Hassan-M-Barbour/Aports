@@ -105,7 +105,7 @@
             >
               <NuxtLink to="/" data-v-inspector="pages/index.vue:115:33">
                 <img
-                  src="/_nuxt/Imags/logo-1.png"
+                  src="/Imags/logo-1.png"
                   alt=""
                   data-v-inspector="pages/index.vue:115:54"
               /></NuxtLink>
