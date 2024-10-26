@@ -1116,7 +1116,7 @@
     }
 
     .main-menu__logo {
-        padding: 20.5px 30px;
+        padding: 20.5px 30px !important;
         margin-top: 0;
     }
 

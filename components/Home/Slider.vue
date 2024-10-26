@@ -87,7 +87,7 @@ h2 {
 
 @media (max-width: 900px) {
   h2 {
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 0px;
   }
 }
