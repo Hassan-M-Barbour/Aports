@@ -105,7 +105,7 @@
             >
               <NuxtLink to="/" data-v-inspector="pages/index.vue:115:33">
                 <img
-                  src="/public/Imags/logo-1.png"
+                  src="/_nuxt/Imags/logo-1.png"
                   alt=""
                   data-v-inspector="pages/index.vue:115:54"
               /></NuxtLink>
@@ -115,10 +115,7 @@
             class="main-menu__main-menu-box"
             data-v-inspector="pages/index.vue:118:25"
           >
-            <a
-              href="#"
-              class="mobile-nav__toggler"
-              data-v-inspector="pages/index.vue:119:29"
+            <a href="#" class="mobile-nav__toggler" @click.prevent="toggleMenu"
               ><i
                 class="fa fa-bars"
                 data-v-inspector="pages/index.vue:119:69"
@@ -315,6 +312,7 @@
         </div>
       </div>
     </nav>
+    <SharedMobileMenu v-if="isMenuOpen" @close="toggleMenu" />
   </header>
 </template>
 
@@ -360,25 +358,22 @@
 
 <script>
 export default {
+  data() {
+    return {
+      isMenuOpen: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
+    handleScroll() {},
+  },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
   },
   beforeDestroy() {
     window.removeEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      const menu = document.querySelector(".main-menu");
-      const topHeader = document.querySelector(".main-header__top");
-
-      if (window.scrollY > 400) {
-        menu.classList.add("scrolled");
-        topHeader.classList.add("scrolled");
-      } else {
-        menu.classList.remove("scrolled");
-        topHeader.classList.remove("scrolled");
-      }
-    },
   },
 };
 </script>
