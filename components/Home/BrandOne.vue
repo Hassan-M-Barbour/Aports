@@ -90,4 +90,14 @@
     </div>
   </section>
 </template>
-
+<style sort>
+.swiper-wrapper {
+  position: relative;
+  width: 20% !important;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+</style>
