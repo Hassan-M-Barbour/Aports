@@ -367,7 +367,18 @@ export default {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
-    handleScroll() {},
+    handleScroll() {
+      const menu = document.querySelector(".main-menu");
+      const topHeader = document.querySelector(".main-header__top");
+
+      if (window.scrollY > 400) {
+        menu.classList.add("scrolled");
+        topHeader.classList.add("scrolled");
+      } else {
+        menu.classList.remove("scrolled");
+        topHeader.classList.remove("scrolled");
+      }
+    },
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);

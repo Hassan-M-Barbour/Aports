@@ -6130,8 +6130,18 @@ ul {
 .testimonial-one {
   position: relative;
   display: block;
-  padding: 120px 0 193px;
+  padding: 100px 0 50px;
   z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-one {
+    position: relative;
+    display: block;
+    padding: 100px 0 193px;
+    z-index: 1;
+    margin-left: 1rem;
+  }
 }
 
 .testimonial-one__left {

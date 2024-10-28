@@ -1,7 +1,5 @@
 <template>
-  <section class="feature-four" style="position: relative;
-    display: block;
-    padding: 121px 0 20px;">
+  <section class="feature-four">
     <div class="container">
       <div class="row">
         <!--Feature Three Single Start-->

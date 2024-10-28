@@ -1,13 +1,8 @@
 <template>
   <div class="">
-   
- 
     <div class="page-wrapper">
-    
-        <SharedTopHeader />
-        <div class="custom-cursor" id="custom-cursor"></div>
-     
-     
+      <SharedTopHeader />
+      <div class="custom-cursor" id="custom-cursor"></div>
 
       <AboutHeaderStart />
       <AboutFeatureOne />
@@ -18,7 +13,7 @@
 
       <AboutTeam />
 
-      <HomeBrandOne1/>
+      <HomeBrandOne1 />
       <SharedFooter />
     </div>
     <!-- /.page-wrapper -->
@@ -65,14 +60,8 @@
 </template>
 
 <script setup lang="ts">
-
 useHead({
-  title: 'Aports | About',
-  meta: [
-    { name: 'description', content: '' }
-  ],
-
- 
-})
+  title: "Aports | About",
+  meta: [{ name: "description", content: "" }],
+});
 </script>
-

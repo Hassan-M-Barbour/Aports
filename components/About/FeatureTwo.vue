@@ -1,15 +1,10 @@
 <template>
- <AboutFeaturetest />
-
-        <!--Testimonial One Start-->
-        <section class="testimonial-one testimonial-two" style="position: relative;
-    display: block;
-    padding: 133px;
-    z-index: 1;">
-          <div class="container" style="padding-top:135px" >
-              <div class="row">
-                  <div class="col-xl-5 col-lg-5">
-                      <div class="testimonial-one__left">
+  <!--Testimonial One Start-->
+  <section class="testimonial-one testimonial-two" style="">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-xl-5 col-lg-5">
+                      <div class="testimonial-one__left" >
                           <div class="testimonial-one__img-1">
                               <img src="/Imags/testimonial-1-1.jpg" alt="">
                           </div>
@@ -26,20 +21,20 @@
                               <img src="/Imags/testimonial-1-5.jpg" alt="">
                           </div>
                       </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7">
-                      <div class="testimonial-one__right">
-                          <div class="section-title text-left">
-                              <span class="section-title__tagline">our Testimonials</span>
-                              <h2 class="section-title__title" style="margin: 0;
-    color: var(--aports-black);
-    font-size: 45px;
-    line-height: 54px;
-    font-weight: 700;
-    margin-top: -100px;" >What they’re saying?</h2>
-                          </div>
-                          <div class="testimonial-one__carousel thm-owl__carousel owl-theme owl-carousel"
-                              data-owl-options='{
+                  </div> -->
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-xs-8">
+          <div
+            class="testimonial-one__right"
+            style="position: relative; display: block; text-align: center"
+          >
+            <div class="section-title text-left">
+              <span class="section-title__tagline">our Testimonials</span>
+              <h2 class="section-title__title">What they’re saying?</h2>
+            </div>
+            <AboutFeaturetest />
+            <div
+              class="testimonial-one__carousel thm-owl__carousel owl-theme owl-carousel"
+              data-owl-options='{
                               "items": 1,
                               "margin": 30,
                               "smartSpeed": 700,
@@ -59,109 +54,124 @@
                                       "items": 1
                                   }
                               }
-                          }'>
-                              <!--Testimonial One Single Start-->
-                              <div class="item">
-                                  <div class="testimonial-one__single">
-                                      <p class="testimonial-one__text">Vestibulum scelerisque enim pulvinar, aliquam
-                                          erat sit amet, hendrerit dui. Vivamus varius libero metus, sit amet
-                                          hendrerit semper.</p>
-                                      <div class="testimonial-one__client-info">
-                                          <h3 class="testimonial-one__client-name">Smith jackan</h3>
-                                          <p class="testimonial-one__client-title">interior Designer</p>
-                                      </div>
-                                      <div class="testimonial-one__quote">
-                                          <span class="icon-quotes"></span>
-                                      </div>
-                                      <div class="testimonial-one__rating">
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                      </div>
-                                  </div>
-                              </div>
-                              <!--Testimonial One Single End-->
-                              <!--Testimonial One Single Start-->
-                              <div class="item">
-                                  <div class="testimonial-one__single">
-                                      <p class="testimonial-one__text">Vestibulum scelerisque enim pulvinar, aliquam
-                                          erat sit amet, hendrerit dui. Vivamus varius libero metus, sit amet
-                                          hendrerit semper.</p>
-                                      <div class="testimonial-one__client-info">
-                                          <h3 class="testimonial-one__client-name">Kevin smith</h3>
-                                          <p class="testimonial-one__client-title">interior Designer</p>
-                                      </div>
-                                      <div class="testimonial-one__quote">
-                                          <span class="icon-quotes"></span>
-                                      </div>
-                                      <div class="testimonial-one__rating">
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                      </div>
-                                  </div>
-                              </div>
-                              <!--Testimonial One Single End-->
-                              <!--Testimonial One Single Start-->
-                              <div class="item">
-                                  <div class="testimonial-one__single">
-                                      <p class="testimonial-one__text">Vestibulum scelerisque enim pulvinar, aliquam
-                                          erat sit amet, hendrerit dui. Vivamus varius libero metus, sit amet
-                                          hendrerit semper.</p>
-                                      <div class="testimonial-one__client-info">
-                                          <h3 class="testimonial-one__client-name">Mike hardson</h3>
-                                          <p class="testimonial-one__client-title">interior Designer</p>
-                                      </div>
-                                      <div class="testimonial-one__quote">
-                                          <span class="icon-quotes"></span>
-                                      </div>
-                                      <div class="testimonial-one__rating">
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                      </div>
-                                  </div>
-                              </div>
-                              <!--Testimonial One Single End-->
-                              <!--Testimonial One Single Start-->
-                              <div class="item">
-                                  <div class="testimonial-one__single">
-                                      <p class="testimonial-one__text">Vestibulum scelerisque enim pulvinar, aliquam
-                                          erat sit amet, hendrerit dui. Vivamus varius libero metus, sit amet
-                                          hendrerit semper.</p>
-                                      <div class="testimonial-one__client-info">
-                                          <h3 class="testimonial-one__client-name">Sandar sims</h3>
-                                          <p class="testimonial-one__client-title">interior Designer</p>
-                                      </div>
-                                      <div class="testimonial-one__quote">
-                                          <span class="icon-quotes"></span>
-                                      </div>
-                                      <div class="testimonial-one__rating">
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                          <i class="fa fa-star"></i>
-                                      </div>
-                                  </div>
-                              </div>
-                              <!--Testimonial One Single End-->
-                          </div>
-                      </div>
+                          }'
+            >
+              <!--Testimonial One Single Start-->
+              <div class="item">
+                <div class="testimonial-one__single">
+                  <p class="testimonial-one__text">
+                    Vestibulum scelerisque enim pulvinar, aliquam erat sit amet,
+                    hendrerit dui. Vivamus varius libero metus, sit amet
+                    hendrerit semper.
+                  </p>
+                  <div class="testimonial-one__client-info">
+                    <h3 class="testimonial-one__client-name">Smith jackan</h3>
+                    <p class="testimonial-one__client-title">
+                      interior Designer
+                    </p>
                   </div>
+                  <div class="testimonial-one__quote">
+                    <span class="icon-quotes"></span>
+                  </div>
+                  <div class="testimonial-one__rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
               </div>
+              <!--Testimonial One Single End-->
+              <!--Testimonial One Single Start-->
+              <div class="item">
+                <div class="testimonial-one__single">
+                  <p class="testimonial-one__text">
+                    Vestibulum scelerisque enim pulvinar, aliquam erat sit amet,
+                    hendrerit dui. Vivamus varius libero metus, sit amet
+                    hendrerit semper.
+                  </p>
+                  <div class="testimonial-one__client-info">
+                    <h3 class="testimonial-one__client-name">Kevin smith</h3>
+                    <p class="testimonial-one__client-title">
+                      interior Designer
+                    </p>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    <span class="icon-quotes"></span>
+                  </div>
+                  <div class="testimonial-one__rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial One Single End-->
+              <!--Testimonial One Single Start-->
+              <div class="item">
+                <div class="testimonial-one__single">
+                  <p class="testimonial-one__text">
+                    Vestibulum scelerisque enim pulvinar, aliquam erat sit amet,
+                    hendrerit dui. Vivamus varius libero metus, sit amet
+                    hendrerit semper.
+                  </p>
+                  <div class="testimonial-one__client-info">
+                    <h3 class="testimonial-one__client-name">Mike hardson</h3>
+                    <p class="testimonial-one__client-title">
+                      interior Designer
+                    </p>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    <span class="icon-quotes"></span>
+                  </div>
+                  <div class="testimonial-one__rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial One Single End-->
+              <!--Testimonial One Single Start-->
+              <div class="item">
+                <div class="testimonial-one__single">
+                  <p class="testimonial-one__text">
+                    Vestibulum scelerisque enim pulvinar, aliquam erat sit amet,
+                    hendrerit dui. Vivamus varius libero metus, sit amet
+                    hendrerit semper.
+                  </p>
+                  <div class="testimonial-one__client-info">
+                    <h3 class="testimonial-one__client-name">Sandar sims</h3>
+                    <p class="testimonial-one__client-title">
+                      interior Designer
+                    </p>
+                  </div>
+                  <div class="testimonial-one__quote">
+                    <span class="icon-quotes"></span>
+                  </div>
+                  <div class="testimonial-one__rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <!--Testimonial One Single End-->
+            </div>
           </div>
-      </section>
-      <!--Testimonial One End-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Testimonial One End-->
 </template>
-
-
 
 <!-- <template>
   <section class="testimonial-one testimonial-two">
