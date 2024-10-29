@@ -8,7 +8,7 @@ const items = [
 ];
 
 const texts = [
-  ["Modern", "Residential", "Apartments"],
+  ["Modernn", "Residential", "Apartments"],
   ["Luxury", "Living", "City"],
   ["Find", "Your", "Home"],
   ["Modern", "Residential", "Apartments"],
